@@ -184,20 +184,3 @@ class PoseDataset(data.Dataset):
         nocs = nocs.astype(np.float32)
 
         return points, rgb, choose, cat_id, model, prior, sRT, nocs
-
-if __name__ == '__main__':
-    train_dataset = PoseDataset('CAMERA', 'train', 'data', 1024, 192)
-    print(train_dataset.__len__())
-
-    mean_points = np.empty((6, 1024, 3), dtype=np.float)
-    for i in range(6):
-        print(i)
-        while True:
-            idx = random.randint(0, train_dataset.__len__()-1)
-            print(idx)
-            data = train_dataset.__getitem__(idx)
-            if (data[3] == i):
-                print(data[4].shape)
-                mean_points[i] = data[4]
-                break
-    np.save('nn_prior_points_emb', mean_points)
