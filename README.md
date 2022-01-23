@@ -2,7 +2,7 @@
 This is the PyTorch implemention of ICCV'21 paper **[SGPA: Structure-Guided Prior Adaptation for Category-Level 6D Object Pose Estimation](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_SGPA_Structure-Guided_Prior_Adaptation_for_Category-Level_6D_Object_Pose_Estimation_ICCV_2021_paper.pdf)** by Kai Chen and [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/).
 
 <p align="center">
-<img src="./images/teaset.png" alt="intro" width="70%"/>
+<img src="images/teaset.png" alt="intro" width="70%"/>
 </p>
 
 ## Abstract
