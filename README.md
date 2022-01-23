@@ -2,7 +2,7 @@
 This is the PyTorch implemention of ICCV'21 paper **[SGPA: Structure-Guided Prior Adaptation for Category-Level 6D Object Pose Estimation](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_SGPA_Structure-Guided_Prior_Adaptation_for_Category-Level_6D_Object_Pose_Estimation_ICCV_2021_paper.pdf)** by Kai Chen and [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/).
 
 <p align="center">
-<img src="images/teaser.png" alt="intro" width="70%"/>
+<img src="images/teaser.png" alt="intro" width="100%"/>
 </p>
 
 ## Abstract
@@ -46,12 +46,12 @@ Then, organize and preprocess these files following [SPD](https://github.com/men
 ```
 SGPA
 ├── data
-│   ├── Real
-│   ├─────test
-│   └─────test_list.txt
+│   └── Real
+│       ├──test
+│       └──test_list.txt
 └── results
-    ├── mrcnn_results
-    └─────real_test
+    └── mrcnn_results
+        └──real_test
 ```
 ## Evaluation
 Please download our trained model [here](https://drive.google.com/file/d/1drBp3naBrNdazah1zTdgydjchE-LysdI/view?usp=sharing) and put it in the 'SGPA/model' directory. Then, you can have a quick evaluation on the REAL275 dataset using the following command.
