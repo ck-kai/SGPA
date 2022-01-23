@@ -1,0 +1,6 @@
+opencv-python==4.5.5.62
+tqdm==4.62.3
+h5py==3.1.0
+matplotlib==3.3.4
+tensorflow==1.14.0
+tensorboard==1.14.0
