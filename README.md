@@ -42,7 +42,7 @@ python setup.py install
 ## Dataset
 Download camera_train, camera_val, real_train, real_test, ground-truth annotations and mesh models provided by NOCS.
 
-Then, organize and preprocess these files following [SPD](https://github.com/mentian/object-deformnet). For a quick evaluation, we provide the processed testing data for REAL275. You can download it [here](https://www.dropbox.com/sh/cas0i4k0i8tf96f/AAC3RGwA6JVbMN1rMYDuhg2sa?dl=0) and organize the testing data as follows:
+Then, organize and preprocess these files following [SPD](https://github.com/mentian/object-deformnet). For a quick evaluation, we provide the processed testing data for REAL275. You can download it [here](https://www.dropbox.com/s/7ylvilbwznme9cl/dataset.zip?dl=0) and organize the testing data as follows:
 ```
 SGPA
 ├── data
