@@ -53,20 +53,12 @@ class Loss(nn.Module):
         return total_loss, corr_loss, cd_loss, entropy_loss, deform_loss
 
 class LowRank_Loss(nn.Module):
-    """ Loss for training DeformNet.
-        Use NOCS coords to supervise training.
-    """
     def __init__(self):
         super(LowRank_Loss, self).__init__()
         self.chamferloss = ChamferLoss()
 
     def forward(self, projected_points, points):
-        """
-        Args:
-            points: bs*n*3
-            weight: m*n
-            bias: m
-        """
+
         cd_loss1,_,_ = self.chamferloss(projected_points, points)
         cd_loss2,_,_ = self.chamferloss(points, projected_points)
 
