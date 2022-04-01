@@ -54,7 +54,7 @@ SGPA
         └──real_test
 ```
 ## Evaluation
-Please download our trained model [here](https://drive.google.com/file/d/1drBp3naBrNdazah1zTdgydjchE-LysdI/view?usp=sharing) and put it in the 'SGPA/model' directory. Then, you can have a quick evaluation on the REAL275 dataset using the following command.
+Please download our trained model [here](https://drive.google.com/file/d/1drBp3naBrNdazah1zTdgydjchE-LysdI/view?usp=sharing) and put it in the 'SGPA/model' directory. Then, you can have a quick evaluation on the REAL275 dataset using the following command. In addition, please download our trained model [here](https://drive.google.com/file/d/1JP53Nq1vydIxGLvvXnVVH6TCZm4bEcOZ/view?usp=sharing) for the CAMERA dataset.
 ```bash
 bash eval.sh
 ```
